@@ -4,6 +4,7 @@ remote_theme: mmistakes/minimal-mistakes@4.19.2
 minimal_mistakes_skin: "contrast"
 
 # Site settings
+locale:         "en-US"
 title:          "Michael's Dev Journal"
 name:           "Michael Honke"
 description:    "I enjoy modelling systems and playing with them in a virtual world to see how they match reality. What I share here is for my amusement. It might be a game, simulation or just something interesting."
@@ -15,10 +16,22 @@ author:
     email: "mlhonke@uwaterloo.ca"
     name: "Michael Honke"
     links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mlhonke"
 
+# Site Footer
+footer:
+  links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mlhonke"
 
 plugins:
   - jekyll-paginate
