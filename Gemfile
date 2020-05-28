@@ -10,7 +10,6 @@ source "https://rubygems.org"
 # gem "jekyll", "~> 4.0.1"
 
 # Theme gems. Uncomment one that is being used.
-gem "jekyll-remote-theme"
 gem "minimal-mistakes-jekyll"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
