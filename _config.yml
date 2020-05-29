@@ -5,7 +5,7 @@ minimal_mistakes_skin: "contrast"
 
 # Site settings
 locale:         "en-US"
-title:          "Michael's Dev Journal"
+title:          "Michael's R&D Journal"
 name:           "Michael Honke"
 description:    "I enjoy modelling systems and playing with them in a virtual world to see how they match reality. What I share here is for my amusement. It might be a game, simulation or just something interesting."
 baseurl:        "" # the subpath of your site, e.g. /blog
@@ -57,9 +57,9 @@ kramdown:
   enable_coderay: false
     
 # Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+#sass:
+#  sass_dir: _sass
+#  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
     
 # Outputting
 #permalink: /:categories/:title/
