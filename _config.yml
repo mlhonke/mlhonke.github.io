@@ -4,8 +4,8 @@ github: [metadata]
 include: ["_pages"]
 
 # select theme depending if hosting locally or on GitHub
-#remote_theme: mmistakes/minimal-mistakes@4.19.2
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.19.2
+#theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "contrast"
 
 # Site settings
