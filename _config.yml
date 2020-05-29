@@ -1,6 +1,11 @@
 github: [metadata]
 
-remote_theme: mmistakes/minimal-mistakes@4.19.2
+# includes
+include: ["_pages"]
+
+# select theme depending if hosting locally or on GitHub
+#remote_theme: mmistakes/minimal-mistakes@4.19.2
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "contrast"
 
 # Site settings
@@ -85,6 +90,11 @@ compress_html:
   clippings: all
   ignore:
     envs: development  # disable compression in dev environment   
+    
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
     
 # Defaults
 defaults:

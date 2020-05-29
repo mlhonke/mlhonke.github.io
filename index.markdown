@@ -6,6 +6,16 @@ header:
     show_overlay_excerpt: false
     image_description: "2D ferrofluid simulation from my thesis project."
     caption: "Simulation of the Rosensweig instability."
-layout: home
+layout: myfrontpage
 author_profile: true
+classes: wide
+
+collection: projects
+entries_layout: grid
+
+collection2: posts
+entries_layout2: list
+
 ---
+
+{% include feature_row %}
