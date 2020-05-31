@@ -19,7 +19,7 @@ author_profile: false
 </div>
 
 <div class = "frontpageButton">
-    <a href="/projects/"> <img class = "frontpageButtonImage" border="0" alt="W3Schools" src="assets/images/mhonke_thumbnail.jpg" > <div class = "frontpageButtonTextBackdrop"> <span class = "frontpageButtonText"> About Me </span> </div> </a>
+    <a href="/about/"> <img class = "frontpageButtonImage" border="0" alt="W3Schools" src="assets/images/mhonke_thumbnail.jpg" > <div class = "frontpageButtonTextBackdrop"> <span class = "frontpageButtonText"> About Me </span> </div> </a>
 </div>
 
 <div class = "frontpageButton">
