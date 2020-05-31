@@ -7,4 +7,4 @@ header:
     teaser: /assets/images/bezierPatch.png
 ---
 
-Talk about project here.
+Project for my undergraduate thesis.
