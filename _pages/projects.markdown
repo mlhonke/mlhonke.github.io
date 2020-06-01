@@ -1,10 +1,14 @@
 ---
-layout: collection
+layout: single
 title: Projects
 permalink: /projects/
 author_profile: true
 classes: wide
 
 collection: projects
-entries_layout: grid
+entries_layout: list
 ---
+
+<div>
+  {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>

@@ -67,9 +67,17 @@
 /* remove border*/
 .page__content {
   .archive__item-title {
-    margin-top: 1em;
+    margin-top: 0em;
     border-bottom: none;
+    vertical-align: text-top;
   }
+}
+
+.archive__item-textbody {
+  box-sizing: border-box;
+  width: 65%;
+  vertical-align: top;
+  display: inline-block;
 }
 
 .archive__item-excerpt {
@@ -89,8 +97,11 @@
   position: relative;
   border-radius: $border-radius;
   overflow: hidden;
+  display: inline-block;
+  width: 30%;
 
   img {
+    vertical-align: text-top;
     width: 100%;
   }
 }

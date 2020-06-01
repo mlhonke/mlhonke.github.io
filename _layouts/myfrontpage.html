@@ -5,10 +5,6 @@ layout: archive
 {{ content }}
 
 <div>
-  {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
-</div>
-
-<div>
 <h3>{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
@@ -24,5 +20,9 @@ layout: archive
 {% include paginator.html %}
 </div>
 
+<p> Featured Projects </p>
 
+<div>
+  {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>
 
