@@ -25,6 +25,7 @@ author:
     name: "Michael Honke"
     email: "mlhonke@uwaterloo.ca"
     avatar: "assets/images/mhonke3_compressed.jpg"
+    #    bio: "I work at the intersection of <b>physics, math and computer science</b> researching <b> simulation, computer graphics and AI"
     links:
     #- label: "Facebook"
       #icon: "fab fa-fw fa-facebook-square"

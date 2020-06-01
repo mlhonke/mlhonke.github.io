@@ -1,3 +1,13 @@
+.quoty-text{
+    font-family:georgia,garamond,serif;
+    font-style:italic;
+    font-size:16px;
+    
+    @include breakpoint($medium){
+        font-size: 22px;
+    }
+}
+
 .frontpageBreak {
     display: none;
 
