@@ -1,10 +1,11 @@
 ---
 layout: single
 title:  "A Highly Parallelized Bloch Simulator for Magnetic Resonance Imaging"
-date:   2020-05-29 00:43:00 -0500
+date:   2020-05-20 00:43:00 -0500
 collection: projects
 author_profile: true
 toc: true
+classes: wide
 header:
     teaser: /assets/images/gre_timesteps.png
 ---
