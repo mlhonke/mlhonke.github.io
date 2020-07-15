@@ -14,11 +14,14 @@ Ferrofluids are a type of magnetic fluid. They have all the properties normally 
 
 # Examples
 ## Field Induced Motion
-Water, initialized as a block, is used to fill a container. Simulation resolution is 60x60x60.
+A ferrofluid droplet, in zero gravity, is accelerated by a magnetic field towards the bottom of the simulation domain where the magnet is located. Note the non-constant acceleration of the droplet as the magnetic field increases towards the bottom of the domain.
 {% include video id="_pCorLhMZCM" provider="youtube" %}
 
 ## Rosensweig Instability
+A strong magnet is placed below the initially flat block of ferrofluid. As time progresses the Rosensweig instability phenomena occurs, as seen by peaking on the surface of the fluid. Simulation resolution is 60x60x60.
 {% include video id="-VFo63_UEq8" provider="youtube" %}
+
+I found that my simulator can reproduce the critical magnetization trait of ferrofluids. This means that there is a minimum magnetic field required to produce the Rosensweig instability. Until that point is reached, the fluid does not create peaks. Strong magnetic fields also ellicit more, and faster peaking than weak magnetic fields.
 
 # Technical Details
 
