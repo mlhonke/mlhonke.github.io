@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Spaceship Game Development Day 1"
+title:  "Spaceship Game Dev Day 1: Planning"
 date:   2020-07-19 00:43:00 -0500
 categories: personal
 header:
