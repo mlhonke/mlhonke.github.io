@@ -3,6 +3,7 @@ layout: single
 title:  "Spaceship Game Dev Day 1: Planning"
 date:   2020-07-19 00:43:00 -0500
 categories: personal
+classes: wide
 header:
     teaser: /assets/images/spaceship/day1_screenshot.png
 ---
@@ -21,6 +22,6 @@ I've decided to use OpenGL 3+ and GLFW for my game graphics. First, so I have a 
 ## Achievements  
 So what I did implement today?
 * WASD / mouse FPS style controls (a starting point for now)
-* Rendering multiple cubes with various offsets to screen using instanced rendering to avoid multiple draw calls. Important for performance if there are multi-thousand block ships.
+* Rendering multiple cubes with various offsets to screen using instanced rendering to avoid multiple draw calls. Important for performance if there are multi-thousand cube ships.
 
 {% include figure image_path="/assets/images/spaceship/day1_screenshot.png" alt="Rendered a few cubes to my screen." caption="4 cubes drawn using one glDrawElementsInstanced() call." %}
