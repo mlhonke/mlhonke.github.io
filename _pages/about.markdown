@@ -6,6 +6,8 @@ author_profile: true
 #classes: wide
 toc: true
 ---
+## Contact
+Email: <mlhonke@uwaterloo.ca>
 
 ## Education
 **Master of Math, Computer Science**  
