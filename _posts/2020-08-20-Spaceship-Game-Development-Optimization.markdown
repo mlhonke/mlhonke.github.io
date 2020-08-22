@@ -23,6 +23,8 @@ A 1024<sup>3</sup> planet alone would take 1GB to store, assuming 1 byte per blo
 
 A major optimization was to switch the way I was thinking about planets. Instead of thinking of them as solid objects I realized I can represent them as hollow shells, with no blocks inside. When a player removes a block, I can add internal blocks at that time. These can be randomly generated based on the terrain properties of that area, and the player's position. As the player mines or damages a planet the removed blocks can offset the memory cost of the newly generated blocks. This limits me from pre-generating underground structures for the player to find, which I don't see as a critical gameplay feature for a spaceship game.
 
+Generating only the surface cubes works well with my underlying **octree** data structure, since its sparse nature allows it to only stores cubes that exist. If I was instead using contiguously allocated arrays I would be allocating memory effectively for a surface as thick as the array's height.
+
 # Current Benchmark
 I mentioned previously that I'd like to have 2048<sup>3</sup> planets. However a 1024<sup>3</sup> planet already looks quite massive. I can't say I wouldn't mind even bigger planets, but I need to keep memory and FPS in mind. From a gameplay perspective a 1024<sup>3</sup> planet takes almost 14 minutes (if flat terrain) for a player to complete one full loop around at a typical 5 block / second movement speed. That covers only a narrow band around 4 out of the 6 faces. A 1024<sup>3</sup> planet should be plenty large to build a base, and get a first ship together.
 
