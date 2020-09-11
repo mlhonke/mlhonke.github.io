@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "A Vacation West"
+title:  "A Mountain Biking Vacation West"
 date:   2020-09-07 00:43:00 -0500
 categories: personal
 classes: wide
