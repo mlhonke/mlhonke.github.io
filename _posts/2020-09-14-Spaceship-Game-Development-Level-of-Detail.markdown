@@ -48,4 +48,4 @@ I realized while implementing the LOD algorithm that often far cubes need to be 
 
 There is also the standard approach of face merging, where planar faces are combined to reduce the total amount of rendered faces. I think this could yield large FPS improvements for planets, since bodies of water are optimal for face merging.
 
-The strength of my LOD algorithm is that it optimizes both FPS, through reducing the number of rendered faces, and memory by storing fewer larger cubes.
+The strength of my LOD algorithm is that it optimizes both FPS, through reducing the number of rendered faces, and memory by storing fewer larger cubes. The disadvantage is that it affects the visual quality of the game, whereas the above two optimizations wouldn't.
