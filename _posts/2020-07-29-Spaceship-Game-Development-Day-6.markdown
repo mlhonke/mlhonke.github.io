@@ -2,7 +2,7 @@
 layout: single
 title:  "Spaceship Game Dev Day 6: Colours and Lights"
 date:   2020-07-29 00:43:00 -0500
-categories: personal
+categories: personal spaceshipchallenge
 classes: wide
 header:
     teaser: /assets/images/spaceship/day6_screenshot_2_small.jpg

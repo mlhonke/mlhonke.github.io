@@ -2,7 +2,7 @@
 layout: single
 title:  "Spaceship Game Dev Day 5: Saving/Loading Ships"
 date:   2020-07-27 00:43:00 -0500
-categories: personal
+categories: personal spaceshipchallenge
 classes: wide
 header:
     teaser: /assets/images/spaceship/day5_screenshot.jpg

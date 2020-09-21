@@ -2,7 +2,7 @@
 layout: single
 title:  "Spaceship Game Dev Day 3: Intersection Testing"
 date:   2020-07-21 00:43:00 -0500
-categories: personal
+categories: personal spaceshipchallenge
 classes: wide
 header:
     teaser: /assets/images/spaceship/day3_screenshot.jpg
