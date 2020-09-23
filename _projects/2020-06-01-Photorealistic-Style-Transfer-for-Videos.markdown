@@ -7,7 +7,7 @@ author_profile: true
 #toc: true
 classes: wide
 header:
-    teaser: /assets/images/ferrofluid_front_small.jpg
+    teaser: /assets/images/car_road_style.png
 ---
 
 At the end of 2017, Rahul Iyer, Dishant Mittal and myself embarked on creating a new type of style transfer using neural networks for a University of Waterloo course project ([Stat 946](https://uwaterloo.ca/data-analytics/teaching/deep-learning-2017)). We were inspired by two papers. The first paper is by Ruder et al. [1]. They developed a temporally coherent method of transferring the style of one image to a video. The second paper is by Luan et al. [2], who created a method of doing photorealistic style transfer between images. Photorealistic style is different from artistic style, which was the type of style in the seminal work for style transfer by [Gatys et al.](https://arxiv.org/abs/1508.06576) in 2015. Photorealistic style includes visual information such as time of day, and season. Artistic style is allowed to influence the shape of objects, where as photorealistic style does not included such distortions.
