@@ -6,6 +6,8 @@ author_profile: true
 #classes: wide
 toc: true
 ---
+I'm a physical simulation and graphics developer. I'm also interested in machine learning and operating systems.
+
 ## Contact
 Email: <mlhonke@uwaterloo.ca>
 
