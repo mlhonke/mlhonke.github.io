@@ -23,7 +23,7 @@ MRI simulation has received significant attention previously. However, the simul
 My simulator is an extension of Trevor Vincent's <a href="https://github.com/trevor-vincent/lowfield_diffusion_mri_gpu">MRI simulator</a>, also supervised by Dr. Christopher Bidinosti. I was therefore able to start with a simulator that solved the Bloch equations for low magnetic fields, and modelled diffusion on the GPU. I extended this simulator to have full imaging capability with a GPU compatible pipeline.
 
 # Technical Details
-If you're interested in the details you can review the code: <a href="https://github.com/mlhonke/mri_sim">here</a> or see my thesis: <a href="/assets/files/undergrad_mri_sim_thesis.pdf">here</a>.
+If you're interested in the details you can review the code: <a href="https://github.com/mlhonke/mri_sim">here</a> or see my thesis: <a href="/assets/files/undergrad_mri_sim_thesis.pdf">here</a>. All GPU functionality was achieved using NVIDIA's CUDA library. 
 
 # Example
 I mentioned that diffusion can be used by a MRI scanner to learn more about the sample. In this example I placed five simulated water samples with different diffusion coefficients along the bottom. Moving from left to right the diffusion coefficient increases. Therefore the signal decays faster due to phase incoherence (water mixes and destructively accelerates the decay of its signal). This results in progressively dimmer circles.
